@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+}
+.count{
+ margin-left: 30%;
+
+}
+.count h1{
+    color:brown;
+}
+.count button{
+    background-color: bisque;
+    color:black;
+    padding:10px 25px;
+    font-size: 15px;
+}
+.head{
+    background-color: orange;
+}
+.head ul{ 
+    display: flex;
+    justify-content: space-between;
+    width:60%; 
+    margin-left:18vh;
+    list-style: none;
+}
+.head ul li{
+    background-color: azure;
+    border-radius: 15px;
+    padding:10px;
+}

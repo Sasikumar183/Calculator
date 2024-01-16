@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/top-view-office-table-desk-workspace-with-calculator-black-pen-laptop-blue_101276-159.jpg?w=740);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+}
+.calc{
+    width: 295px;
+    margin:100px auto;
+    cursor: pointer;
+}
+#result{
+    color:black;
+    width:94%;
+    content: '0';
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    height:60px;
+    background-color: grey;
+    font-size: 35px;
+    padding:10px;
+    text-align: right;
+    border: 2px solid black;
+    box-shadow: 5px 6px 5px black;
+
+}
+
+#num{
+    width:30%;
+    margin: 2px 3px;
+    height:60px;
+    background-color:black;
+    color:white;
+    font-size: 35px;
+    border-radius: 4px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding:12px;
+    cursor:pointer;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#num:hover{
+    box-shadow: 4px 6px 7px black;
+}
+
+#ans,#clear{
+    width:45%;
+    height:50px;
+    font-size: 25px;
+    margin:2px 4px;
+    padding:10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#ans{
+    background-color: rgb(54, 255, 54);
+}
+#ans:hover{
+    box-shadow: 2px 4px 6px green;
+}
+#clear{
+    margin-left: 1vh;
+    background-color: rgb(250, 4, 4);
+}
+#clear:hover{
+    box-shadow: 2px 4px 6px red;
+}
